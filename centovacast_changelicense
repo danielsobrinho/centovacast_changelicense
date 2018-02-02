@@ -1,0 +1,14 @@
+#!/bin/bash                                                                                                    │novalicenca        
+                                                                                                               │dock@dock:/tmp$ sh centovacast_changeli
+novalicenca=$1                                                                                                 │cense.sh teste     
+arquivobasedalicenca='/usr/local/centovacast/etc/license.conf'                                                 │teste    
+                                                                                                               │dock@dock:/tmp$ sh centovacast_changeli
+rm -rf $arquivobasedalicenca                                                                                   │cense.sh testando  
+                                                                                                               │dock@dock:/tmp$ cat centova            
+echo LICENSE_KEY=$novalicenca > $arquivobasedalicenca                                                          │centovacast_changelicense.sh           
+                                                                                                               │centovavast_temp_teste.conf            
+rm -f /usr/local/centovacast/etc/license/license.key                                                           │dock@dock:/tmp$ cat centovacast_changel
+                                                                                                               │icense.sh
+/etc/init.d/centovacast restart                                                                                │#!/bin/bash        
+                                                                                                               │
+echo -e $"Licença Substituida com Sucesso! \n" 
